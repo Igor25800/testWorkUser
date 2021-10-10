@@ -1,0 +1,16 @@
+<h1>Переводиться Тільки HOME і NAV</h1>
+<div class="p-3">
+  <h1>{{'HOME.RULES'| translate}}</h1>
+  <p>{{"HOME.ADMIN" | translate }}</p>
+  <p>{{"HOME.LOGIN"| translate}}</p>
+</div>
+<h1>{{'HOME.TITLE'| translate}}</h1>
+<form [formGroup]="form">
+  <div class="w-25 p-1">
+    <label for="exampleFormControlInput1" class="form-label">{{'HOME.YEAR' | translate}}</label>
+    <input [class.border-danger]="validatorForm" type="number" class="form-control" id="exampleFormControlInput1"
+           formControlName="year">
+    <div *ngIf="validatorForm" class="text-danger">ведіть старше 25 лет ИЛИ старше моложе 60</div>
+  </div>
+</form>
+

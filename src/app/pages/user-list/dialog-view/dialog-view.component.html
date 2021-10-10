@@ -1,0 +1,16 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Рік Навчання</th>
+    <th scope="col">Університет</th>
+    <th scope="col">Спеціальність</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let items of data">
+    <td>{{items.year}}</td>
+    <td>{{items.university}}</td>
+    <td>{{items.specialty}}</td>
+  </tr>
+  </tbody>
+</table>

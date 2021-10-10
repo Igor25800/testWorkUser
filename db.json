@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "role": "user",
+      "name": "Igor",
+      "password": "Pahan",
+      "items": [
+        {
+          "year": "2",
+          "university": "111",
+          "specialty": "2"
+        },
+        {
+          "year": "2",
+          "university": "2",
+          "specialty": "2"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "role": "user",
+      "name": "sad",
+      "password": "asd",
+      "items": [
+        {
+          "year": "dada",
+          "university": "adad",
+          "specialty": "da"
+        },
+        {
+          "year": "dada",
+          "university": "dada",
+          "specialty": "da"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "role": "user",
+      "name": "fedor igor",
+      "password": "12345",
+      "items": [
+        {
+          "year": "1",
+          "university": "1",
+          "specialty": "1"
+        },
+        {
+          "year": "1",
+          "university": "1",
+          "specialty": "1"
+        },
+        {
+          "year": "2",
+          "university": "2",
+          "specialty": "2"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "role": "user",
+      "name": "Sasha Macsik",
+      "password": "1",
+      "items": [
+        {
+          "year": "2",
+          "university": "2",
+          "specialty": "2"
+        }
+      ]
+    }
+  ]
+}

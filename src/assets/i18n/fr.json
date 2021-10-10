@@ -1,0 +1,20 @@
+{
+  "HOME": {
+    "TITLE": "Le champ valide est personnalisé",
+    "RULES": "Règles",
+    "LOGIN": "mot de passe et login admin admin",
+    "ADMIN": "Vous pouvez entrer dans l'administrateur via la connexion est un garde",
+    "YEAR":  "Gardez l'ANNÉE"
+  },
+  "BUTTON" : {
+    "lANG" : {
+      "UA": "Ukrainien",
+      "FR": "Français"
+    }
+  },
+  "NAV": {
+    "HOME": "Accueil",
+    "LOGIN": "Connexion",
+    "USERLIST": "Liste des utilisateurs"
+  }
+}

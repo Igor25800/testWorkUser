@@ -1,0 +1,15 @@
+<div class="container">
+  <form class="forms" [formGroup]="formIn">
+    <h1 class="text-center">Login</h1>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Login Name</mat-label>
+      <input matInput placeholder="Name" formControlName="name">
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill" >
+      <mat-label>Password</mat-label>
+      <input matInput placeholder="Password" formControlName="password">
+    </mat-form-field>
+    <button [disabled]="formIn.invalid" type="button" mat-flat-button color="primary" (click)="login()">Login In</button>
+  </form>
+</div>
+

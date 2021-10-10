@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="border text-center" *ngFor="let item of arrayUser">
+    <p><b>Ім*я:</b>  {{item.name}}</p>
+    <p><b> Параоль:</b> {{item.password}}</p>
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col">Спеціальність</th>
+        <th scope="col">Університет</th>
+        <th scope="col">Рік Навчання</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let items of item.items">
+        <td>{{items.specialty}}</td>
+        <td>{{items.university}}</td>
+        <td>{{items.year}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
